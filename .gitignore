@@ -8,6 +8,8 @@ __pycache__/
 
 #credentials
 credentials.py
+client_secrets.json
+token.pickle
 # Distribution / packaging
 .Python
 build/
