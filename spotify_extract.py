@@ -14,6 +14,7 @@ def connect(cl_id,cl_secret):
 
 #fetch the playlist
 def fetch_playlist_by_id(api,id):
+    
     playlist_response = api.playlist(playlist_id=id)
     name = playlist_response['name']
     playlist_items = playlist_response['tracks']['items']
@@ -47,12 +48,13 @@ def query_builder(pl_data):
 
 
 
-pl_id = "19Qd1TPko613J71jdkNKnP"
+pl_id = "4DlBA0ZMubkPtART7cDNwb"
 api = connect(my_client_id,my_client_secret)
 pl = fetch_playlist_by_id(api,pl_id)
+# print(pl)
 
 
-print(query_builder(extract_data(api,pl[0])))
+# print(query_builder(extract_data(api,pl[0])))
 
 
 
