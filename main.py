@@ -9,7 +9,7 @@ import logging
 
 logger = logging.getLogger()
 
-playlist_id = "4DlBA0ZMubkPtART7cDNwb"
+playlist_id = "Your-playlist-id"
 
 
 def main(pl_id):
