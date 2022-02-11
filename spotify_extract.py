@@ -47,10 +47,10 @@ def query_builder(pl_data):
 
 
 
-
-pl_id = "4DlBA0ZMubkPtART7cDNwb"
-api = connect(my_client_id,my_client_secret)
-pl = fetch_playlist_by_id(api,pl_id)
+#test
+# pl_id = "id"
+# api = connect(my_client_id,my_client_secret)
+# pl = fetch_playlist_by_id(api,pl_id)
 # print(pl)
 
 
