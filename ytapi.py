@@ -1,7 +1,5 @@
-from distutils.command.build import build
-from re import search
 from googleapiclient.discovery import build
-from credentials import yt_api,yt_client_secrent,yt_client_id
+from credentials import yt_api
 import json
 from spotify_extract import query_builder
 import time
