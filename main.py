@@ -1,13 +1,9 @@
-from cmath import log
-from distutils.log import info
+
 from credentials import my_client_secret, my_client_id,yt_api
 from spotify_extract import connect,fetch_playlist_by_id,extract_data,query_builder
 from ytOauth import makePlaylist, addItemToPlaylist, makeService
 from ytapi import getVideoIds
-import logging
 
-
-logger = logging.getLogger()
 
 playlist_id = "Your-playlist-id"
 
